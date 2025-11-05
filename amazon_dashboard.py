@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Your ScraperAPI key
-API_KEY = 'f9600874b3ccbcc25ed7f2dc93be0b81'
+API_KEY = 'YOUR API KEY'
 
 def scrape_amazon(search_query, max_pages=3):
     """Scrape Amazon using ScraperAPI"""
@@ -232,3 +232,4 @@ else:
     - 🖼️ Visual product gallery
     - 📥 CSV/JSON export
     """)
+
